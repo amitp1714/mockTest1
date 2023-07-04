@@ -1,0 +1,46 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+}
+
+.cards{
+    display: grid;
+    grid-template-areas:
+    'tile1 tile2 tile3'
+    'tile1 tile2 tile4'
+    'tile5 tile5 tile6';
+    gap: 10px;
+    padding: 10px;
+}
+
+.card{
+    background-color: #534949;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+}
+
+.tile1{
+    grid-area: tile1;
+}
+.tile2{
+    grid-area: tile2;
+}
+.tile3{
+    grid-area: tile3;
+}
+.tile4{
+    grid-area: tile4;
+}
+.tile5{
+    grid-area: tile5;
+}
+.tile6{
+    grid-area: tile6;
+}
