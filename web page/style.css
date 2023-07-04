@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lemonada:wght@700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700&family=Open+Sans:wght@300&display=swap');
+
+body {
+   padding: 0;
+   margin: 0;
+   font-family: 'Nunito', sans-serif;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.nabvar {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.nabvar:hover {
+   cursor: pointer;
+}
+
+header .left {
+   width: 30%;
+}
+
+header .left{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   list-style-type: none;
+}
+
+header .right {
+   width: 30%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+
+header .right img {
+   width: 20px;
+}
+header .right button {
+   background-color: transparent;
+   padding: 7px 20px;
+   border-radius: 20px;
+}
+header .right .signup {
+   background-color: #ffe01b;
+}
+header .right button:hover {
+   cursor: pointer;
+}
+
+
+.main {
+   margin: 50px 0;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+
+section .left {
+   width: 50%;
+   padding:0 90px
+
+}
+section .left h1{
+   font-size: 40px;
+
+}
+section .left .more{
+   background-color: #ffe01b;
+   padding: 10px 30px;
+   border-radius: 20px;
+
+}
+section .right {
+   width: 50%;
+}
+
+section .image img {
+   width: 100%;
+}
+
+footer {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   background: rgb(36, 28, 21);
+   color: white;
+   word-spacing: 1px;
+   font-size: 14px;
+   padding: 25px 10px;
+}
+footer p{
+   width: 70%;
+}
+
+footer span {
+   text-decoration: underline;
+}
+footer button {
+   color: white;
+   border: 1px solid white;
+   background-color: transparent;
+   padding: 10px 20px;
+}
+footer .img img {
+   width: 30px;
+   color: azure;
+}
